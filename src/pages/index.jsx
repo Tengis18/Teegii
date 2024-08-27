@@ -2,7 +2,7 @@ import { Head, Footer, Header, Hero, Dund, End, The, EEnd } from "@/components";
 
 export default function Home() {
   return (
-    <div className="dark:bg-black">
+    <div className="dark:bg-black flex flex-col justify-center items-center">
       <div>
         <Head />
         <Header />

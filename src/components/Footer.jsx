@@ -21,10 +21,10 @@ import { SkillBox } from "./SkillBox";
 
 export const Footer = () => {
   return (
-    <div className=" container m-auto py-20  ">
-      <div className="container ">
-        <div className="container flex justify-center ">
-          <button className=" bg-slate-100 rounded-xl text-color text-slate-600 text-center w-[105px] h-[28px] dark:text-white">
+    <div className=" container m-auto py-28" id="Footer">
+      <div className="container   ">
+        <div className="container flex justify-center items-center">
+          <button className=" bg-slate-100 dark:bg-slate-400  rounded-xl text-color text-slate-600 text-center w-[105px] h-[28px] dark:text-white">
             Skills
           </button>
         </div>
@@ -33,7 +33,7 @@ export const Footer = () => {
         </p>
       </div>
       <div>
-        <div className="flex flex-wrap items-center justify-center gap-16  md:w-[1216px] md:h-[100px] py-5 ml-20 dark:text-white">
+        <div className="flex flex-wrap items-center justify-center gap-16  md:w-[1216px] md:h-[100px] py-5 ml-20 mt-10 dark:text-white">
           <SkillBox iconComponent={<JavascriptIcon />} text={"Javascript"} />
           <SkillBox iconComponent={<DypescriptIcon />} text={"Typescrip"} />
           <SkillBox iconComponent={<RactIcon />} text={" React"} />

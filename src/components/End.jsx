@@ -1,11 +1,11 @@
 export const End = () => {
   return (
     <main>
-      <div className="container m-auto ls:px-10 ls:py-32">
+      <div className="container m-auto ls:px-10 ls:py-32" id="End">
         <div className="container  flex items-center flex-col">
           <div className="container  ml-8">
             <div className="container  flex justify-center">
-              <button className="bg-slate-200 rounded-xl text-color text-slate-600 text-center w-[122px] h-[28px] ">
+              <button className="bg-slate-200 rounded-xl text-color text-slate-600 text-center w-[122px] dark:bg-[#1F2937] dark:text-white h-[28px] ">
                 Get in touch
               </button>
             </div>

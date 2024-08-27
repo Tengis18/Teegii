@@ -1,7 +1,8 @@
 import { ReactIcon } from "./svg/ReactIcon";
 export const Dund = () => {
   return (
-    <div className="w-screen max-w-[1200px]  m-auto lg:py-20 mt-24 px-32 flex items-center flex-col">
+    <main className=" bg-[#F9FAFB]  dark:bg-[#111827] dark:text-white">
+    <div className="  max-w-[1200px]  m-auto lg:py-20 mt-24 md:px-32 flex items-center flex-col  ">
       <ReactIcon />
       <div className="container  ">
         <div className="md:w-[896px] md:h-[200px] rounded-lg bg-[#ffff]  mt-10 drop-shadow-lg dark:bg-[#1F2937] dark:text-white">
@@ -10,7 +11,7 @@ export const Dund = () => {
               src="./Up.png"
               className="w-[101px] h-[28px] flex justify-center"
             />
-            <div className="container flex flex-col items-center ">
+            <div className="w-[1200px] flex flex-col items-center ml-10">
               <p className="text-2xl">Sr. Frontend Developer</p>
               <ul className="text-slate-500 mt-5 list-disc dark:text-white ">
                 <li>
@@ -33,7 +34,7 @@ export const Dund = () => {
               src="./Up.png"
               className="w-[101px] h-[28px] flex justify-center ml-10"
             />
-            <div className="md:w-[384px] md:h-[224px] flex flex-col items-center">
+            <div className="md:w-[384px] md:h-[224px] flex flex-col items-center  ">
               <p className="text-2xl">Team Lead</p>
               <ul className="text-slate-500 mt-5 list-disc dark:text-white ">
                 <li>Sed quis justo ac magna.</li>npx
@@ -69,6 +70,6 @@ export const Dund = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div></main>
   );
 };

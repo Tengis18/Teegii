@@ -12,15 +12,23 @@ export const Head = () => {
     setIsOpenMenu(!isOpenMenu);
   };
   return (
-    <div className="container m-auto h-auto bg-[#ffff] flex items-center px-[32px] justify-between dark:bg-black dark:text-white">
+    <div className="container m-auto h-auto bg-[#ffff] flex items-center px-[32px] justify-between dark:bg-black dark:text-white pt-10">
       <div className="container flex ">
         <LogoButton />
       </div>
       <div className=" md:flex hidden justify-center items-center gap-6 dark:text-white">
-        <HeadTitel text="About" />
-        <HeadTitel text="Work" />
-        <HeadTitel text="Testimonials" />
-        <HeadTitel text="Contact" />
+      <button onClick={handleMenu}>
+          <a href="#Hero">About</a>
+          </button>
+          <button onClick={handleMenu}>
+          <a href="#Footer">Work</a>
+          </button> 
+          <button onClick={handleMenu}>
+          <a href="#Work">Testimonials</a>
+          </button> 
+          <button onClick={handleMenu}>
+          <a href="#End">Contact</a>
+          </button> 
         <div className="w-[2px] h-[24px] bg-[#F3F4F6]"></div>
         <Hand />
         <ButtonDowload ButtonDowload="Download CV" />

@@ -6,10 +6,12 @@ export const Header = () => {
       <SerchIcon />
       <ShopIcon />
       <div className="container m-auto py-4  dark:text-white">
-        <div className=" container flex justify-between md:px-24 px-8 mt-10 gap-11 ">
+        <div className=" container flex justify-between ">
           <div className="">
-            <img src="./tom.png" className="flex md:hidden md:ml-80 " />
-            <div className="md:w-[600px] md:h-[360px] dark:text-white ">
+            <div className="flex md:hidden md:ml-80  pt-10 justify-center items-center">
+            <img src="./tom.png"  />
+            </div>
+            <div className="md:w-[600px] md:h-[360px] dark:text-white mt-20 ml-10">
               <h1 className="text-4xl flex font-bold ">Hi, i'm TENGIS👋</h1>
               <p className="text-gray-500 mt-9 dark:text-white">
                 I specialize in full stack development, particularly with

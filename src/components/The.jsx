@@ -2,7 +2,7 @@ import { Work } from "./svg/Work";
 
 export const The = () => {
   return (
-    <div className="container m-auto ">
+    <div className="container m-auto " id="Work">
       <div className="flex justify-center items-center flex-col mt-10 ml-20 ">
         <Work />
         <div className="w-[576px] h-[480px] bg-[#F3F4F6] drop-shadow-lg rounded-l-md flex md:hidden justify-center items-center  mt-10">

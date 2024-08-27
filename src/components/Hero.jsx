@@ -1,12 +1,12 @@
 import { EmailIcon } from "./svg/EmailIcon";
 export const Hero = () => {
   return (
-    <main className="bg-[#F9FAFB] w-[screen]  dark:bg-[#111827] dark:text-white">
+    <main className="bg-[#F9FAFB] w-[screen]  dark:bg-[#111827] dark:text-white"id="Hero">
       <div className=" max-w-[1440px]  m-auto py-28 ">
         <EmailIcon />
         <div className="container ">
           <div className="md:ml-20   flex justify-center ">
-            <p className=" bg-slate-200 rounded-xl text-color text-slate-500 text-center w-[105px] h-[28px]">
+            <p className=" bg-slate-200 rounded-xl text-color text-slate-500 text-center w-[105px] dark:bg-slate-400  dark:text-white h-[28px]">
               About me
             </p>
           </div>
@@ -14,7 +14,7 @@ export const Hero = () => {
             <div className="md:w-[584px] md:h-[558px]  md:ml-24 ml-5">
               <img src="./big.png" />
             </div>
-            <div className="  md:w-[584px] md:h-[558px] ml-5 dark:text-white ">
+            <div className="  md:w-[584px] md:h-[558px] ml-10 dark:text-white ">
               <h1 className="text-2xl font-bold">
                 Curious about me? Here you have it:
               </h1>
