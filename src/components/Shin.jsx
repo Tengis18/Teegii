@@ -13,7 +13,7 @@ export const Shin = ({ onClick, handleMenu }) => {
         </button>
       </div>
       <hr />
-      <div className="flex flex-col gap-3 pt-4 pb-4 text-[16px] leading-7 font-normal text-gray-600 dark:text-[#D1D5DB]">
+      <div className="flex flex-col gap-3 pt-4 pb-4 text-[16px] leading-7 font-normal text-gray-600 dark:text-[#D1D5DB] mr-96">
          <button onClick={handleMenu}>
           <a href="#Hero">About</a>
           </button>
